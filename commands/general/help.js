@@ -10,11 +10,14 @@ module.exports = {
    const embed = new Discord.MessageEmbed()
    .setTitle("Get to know MONKE better!")
         .setDescription(`
- monke help | Get to know MONKE better!
+help | Get to know MONKE better!
  monke | All about Monke
  kill | hire Monke to kill a user :knife:
  pizza | Ask Monke to make a pizza for you!
  say   | Tell Monke what to say!
+ ban   | Monke bans a noob (Admin only)
+ invite | invite link for :monke:
+ jenniferpizza | it does a thing
  `)
         .setColor("RANDOM")
         .setFooter("Powered by the Great Monke")
